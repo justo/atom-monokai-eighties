@@ -1,7 +1,7 @@
 @import 'syntax-variables';
 
 atom-text-editor {
-  background-color: @syntax-background-color;
+  background-color: @syntax-background-color-actua;
   color: @syntax-text-color;
 
   .invisible-character {
@@ -16,12 +16,16 @@ atom-text-editor {
     background-color: @syntax-wrap-guide-color;
   }
 
-  .gutter {
-    background-color: @syntax-gutter-background-color;
+  .cursor-line {
+    background-color: @syntax-line-color;
   }
 
-  .line-number.cursor-line-no-selection {
-    background-color: @syntax-gutter-background-color-selected;
+  .gutter {
+    background-color: transparent;
+
+    .cursor-line {
+      background-color: transparent;
+    }
   }
 
   .invisible {

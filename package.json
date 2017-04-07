@@ -1,0 +1,23 @@
+{
+  "name": "atom-monokai-eighties",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A Monokai syntax theme for Atom, influenced by Phoenix Dark's eighties mode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justo/atom-monokai-eighties.git"
+  },
+  "keywords": [
+    "monokai",
+    "syntax",
+    "phoenix"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justo/atom-monokai-eighties/issues"
+  },
+  "homepage": "https://github.com/justo/atom-monokai-eighties#readme",
+  "engines": {
+    "atom": ">=1.13.0"
+  }
+}
